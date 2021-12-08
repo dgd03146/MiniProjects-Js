@@ -69,7 +69,7 @@ function getFieldName(input) {
   return input.id.charAt(0).toUpperCase() + input.id.slice(1);
 }
 
-// Evemt listners
+// Event listners
 form.addEventListener('submit', function (e) {
   e.preventDefault();
 
